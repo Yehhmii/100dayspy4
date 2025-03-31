@@ -102,7 +102,7 @@ def add():
 
         headers = {
             "accept": "application/json",
-            "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlYmM5YzgxNWRiMTZkZjZhMzU4ZWRiMjE0MjQzODg0NCIsIm5iZiI6MTc0MjkyNzU0NC4zMzMsInN1YiI6IjY3ZTJmNmI4ZWJhNzlmNmZmN2YwYTA4NyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.8Q1bf8B5D0AuuLVhA_3nPR2NQP1MmHoDCGiRb8DBasw"
+            "Authorization": ""
         }
         response = requests.get(url, headers=headers)
         data = response.json()["results"]
@@ -120,7 +120,7 @@ def find_movie():
 
         headers = {
             "accept": "application/json",
-            "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlYmM5YzgxNWRiMTZkZjZhMzU4ZWRiMjE0MjQzODg0NCIsIm5iZiI6MTc0MjkyNzU0NC4zMzMsInN1YiI6IjY3ZTJmNmI4ZWJhNzlmNmZmN2YwYTA4NyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.8Q1bf8B5D0AuuLVhA_3nPR2NQP1MmHoDCGiRb8DBasw"
+            "Authorization": ""
         }
         response = requests.get(url, headers=headers)
         data = response.json()
